@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.log1 {
+  margin-top: 22%;
+  margin-left: 140px;
+}
+
+.text {
+  margin-top: 350px;
+  margin-left: 140px;
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  position: absolute;
+}
+
+.bg{
+  background-image: url('../src/login.jpg');
+  background-size: 100% 100%;
+  background-position: cover;
+  height: 100vh;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.focus-in-expand {
+  animation: focus-in-expand 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+@keyframes focus-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    filter: blur(0);
+    opacity: 1;
+  }
+}
+
+Link:hover {
+  color: gray !important;
+  font-size: 20px !important;
+}
